@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets / config
+.env
+*.heartbeat.json
+vol_data.json
+rq_option_data.json
+watchdog_out.txt
+llm_api_key.txt
+
+# Data
+data/
+
+# OS
+Thumbs.db
+.DS_Store
